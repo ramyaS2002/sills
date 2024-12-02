@@ -1,0 +1,1284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    /* border: 5px dotted red; */
+    /* background-color: black; */
+    height: 100vh;
+    width: 98vw;
+}
+
+/* header style start............................................................................... */
+.logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.logo a{
+    /* border: 1px solid; */
+    /* margin-left: -10px; */
+    color:blue;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo a:hover{
+    transform: scale(1.2);
+   
+}
+.logo_1 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 2rem;
+    border: 3px solid blueviolet;
+    /* background-color:black; */
+}
+.logo_1 img:hover{
+    box-shadow: 0 0 4px 4px blueviolet;
+    transform: scale(1.02);
+}
+
+header{
+    border: 1px solid;
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+nav{
+    /* border: 3px solid red; */
+    align-content: center;
+}
+ul{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-content: flex-start;
+}
+
+li{
+    /* border: 1px solid; */
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2rem;
+    align-content: center;
+    padding: 0;
+}
+li a{
+    font-size: 1.5rem;
+}
+ul li :hover{
+    color: red;
+}
+a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+#check{
+    display: none;
+}
+#bar{
+    display: none;
+}
+
+
+
+
+
+
+
+/* header style end........................................................................... */
+
+/* page-1 start.......................................................................... */
+
+#page-1{
+    border: 5px solid green;
+    padding: 40px;
+    height: auto;
+}
+.landing{
+    display: flex;
+    justify-content: space-around;
+    /* border: 5px solid yellow; */
+}
+.left{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    /* padding: 10px; */
+}
+.landing{
+    /* border: px solid red; */
+    display: flex;
+    align-items: center;
+}
+.insta{
+    border: 4px solid;
+    width: 46vw;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.insta h4{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.insta h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.insta h2{
+    font-size: 2.4rem;
+   font-weight: bold;
+}
+.insta h2::first-letter{
+    color:orangered;
+}
+span{
+    color: orangered;
+}
+.insta p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.insta button{
+    border: 1px solid rgb(32, 32, 179) ;
+    width: 13vw; 
+    padding:10px;
+    background-color: rgb(32, 32, 179);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.insta button:hover{
+    border: 2px dotted white;
+    background-color: rgb(32, 32, 179) ;
+    transform: scale(1.1);
+    box-shadow: 0 0 4px 4px rgb(32, 32, 179);
+
+}
+.fb{
+    border: 2px solid;  
+    padding: 10px;
+    width: 20vw;
+    font-size: 2.5rem;
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+   
+}
+.fb i:hover{
+    box-shadow: 0 0 5px 5px red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+    background-color:red;
+    color: white;
+}
+.box2{
+    border: 2px dotted orangered;
+    width: 26%;
+    text-align: center;
+    
+}
+.box2 img{
+    width: 90%;
+    border-radius: 45%;
+    box-shadow:  0 0 10px 10px rgb(8, 180, 211);
+}
+.box2 img{
+    transform: rotate(360deg);
+    animation-iteration-count:3;
+    transition: all 2s ;
+}
+
+
+
+/* page-1 end.......................................................................... */
+
+
+/* Page-2 start............................................................................... */
+#page-2{
+    border: 10px solid red;
+    height: auto;
+}
+.wholeabout{
+    border: 3px solid;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+.box3{
+    border: 2px dotted blue;
+    width: 46vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+.box3  h1{
+    color: red;
+    font-size:2.5rem;
+    font-style: italic;
+    font-weight: bold;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-variant: small-caps; */
+    flex-wrap: wrap;
+}
+.box3 h4{
+    color: blue;
+    font-size:2rem;
+    font-weight: bold;
+    font-family:fantasy;
+    font-style: italic;
+}
+.box3 p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.box3 button{
+    border: 1px solid magenta;
+    /* border: 1px solid rgb(32, 32, 179); */
+    width: 13vw; 
+    padding:10px;
+    background-color: rgb(32, 32, 179);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+.box3 button:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+
+.box4{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+    background-image: url(colorful\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    background-blend-mode:darken;
+}
+.box4 h1{
+    text-align: center;
+    font-size: 2.6rem;
+    background-clip: text;
+    color:transparent;
+    font-style: italic;
+    font-weight: bold;
+}
+.box4 h1:hover{
+    font-size: 3rem;
+    font-weight: bold;
+    color:blue;
+}
+.servi{
+    /* border: 5px solid yellow; */
+    border-left: 2px solid red;
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* position: relative; */
+}
+.box--1::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    right: calc(100% + 13px);
+    top: 18px;
+
+
+}
+.box--1{
+    position: relative;
+    border: 1px solid ;
+    background-color: rgb(79, 245, 245);
+    /* box-shadow: 0 0 4px 4px; */
+    border-radius: 10px;
+    width: 40vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+.box--1:hover{
+    background-color: white;
+    transform: scale(1.03);
+}
+.box--1 h2{
+    font-size: 1.8rem;
+    color: orangered;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box--1 p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.box--2{
+    border: 1px solid maroon;
+    background-color: rgb(79, 245, 245);
+    box-shadow: 0 0 4px 4px;
+    border-radius: 10px;
+    /* border: 3px solid maroon; */
+    width: 40vw;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+.box--2::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    right: calc(100% + 13px);
+    top: 18px;
+
+
+}
+.box--2:hover{
+    background-color: white;
+    transform: scale(1.03);
+}
+.box--2 h3{
+    font-size: 1.7rem;
+    color: orangered;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box--2 p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/*page-2 end........................................................................... */
+
+/* Page-33 start......................................................................... */
+#page-3{
+    border: 3px solid blue;
+    color: white;
+    background-color: black;
+    height: auto;
+}
+.myser{
+    border: 2px dotted green;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+.myser h1{
+    font-size: 2.6rem;
+}
+.threeboxes{
+    /* border: 10px solid red; */
+    display: flex;
+    gap: 30px;
+}
+.threeboxes div{
+    border: 2px solid;
+    /* padding: 10px; */
+    height: 30vh;
+    background-color: rgb(37, 35, 35);
+    border-radius: 20px;
+}
+.square1{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+}
+
+.square1:hover{
+    background-color: aqua;
+    transform: scale(1.06);
+}
+.square1 i{
+    font-size: 2.5rem;
+}
+.square1 h2{
+    font-size: 2rem;
+}
+.square1 p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.square2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.square2:hover{
+    background-color: aqua;
+    transform: scale(1.06);
+}
+
+.square2 i{
+font-size: 2.5rem;
+}
+.square2 h2{
+font-size: 2rem;
+}
+.square2 p{
+font-size: 1.2rem;
+text-align: justify;
+}
+
+.square3{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+
+.square3:hover{
+    background-color: aqua;
+    color: black;
+    transform: scale(1.06);
+}
+.square3 i{
+font-size: 2.5rem;
+}
+.square3 h2{
+font-size: 2rem;
+}
+.square3 p{
+font-size: 1.2rem;
+text-align: justify;
+}
+
+/* Page-4 start............................................................................... */
+.page-4{
+    border: 1px solid;
+    background-color: gray;
+    height: auto;
+}
+.skills{
+    border: 10px solid  red;
+    display: flex;
+    justify-content: space-around;
+}
+
+   /* left side technical skills......................... */
+.pg4box1{
+    border: 5px solid green;
+    width: 50vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+
+}
+.pg4box1  h1{
+    color: blue;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.TKbox1{
+    border: 2px dotted black;
+}
+.TKbox2{
+    border: 2px dotted black;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+    
+}
+/* html */
+.sk1{
+    /* border: 20px solid yellow; */
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 45vw;
+}
+.sktext1{
+    border: 6px dotted orangered;
+    display: flex;
+    gap: 20px;
+    font-size:2rem;
+    align-content: center;
+    align-items: center;
+}
+.sk1 .paps1{
+    border: 5px solid red;
+    align-items: center;
+}
+.sk1 .paps2{
+    border: 3px solid blue;
+    align-items: center;
+}
+/* css */
+.sk2{
+    /* border: 20px solid yellow; */
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 45vw;
+    padding: 0 30px;
+}
+.sktext2{
+    border: 6px dotted orangered;
+    display: flex;
+    gap: 20px;
+    font-size:2rem;
+    align-content: center;
+    align-items: center;
+}
+.sk2 .paps1{
+    border: 5px solid red;
+    align-items: center;
+}
+.sk2 .paps2{
+    border: 3px solid blue;
+    align-items: center;
+}
+
+/* java script */
+.sk3{
+    /* border: 20px solid yellow; */
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 45vw;
+}
+.sktext3{
+    border: 6px dotted orangered;
+    display: flex;
+    gap: 20px;
+    font-size:2rem;
+    align-content: center;
+    align-items: center;
+}
+.sk3 .paps1{
+    border: 5px solid red;
+    align-items: center;
+}
+.sk3 .paps2{
+    border: 3px solid blue;
+    align-items: center;
+}
+
+/*Python  */
+.sk4{
+    /* border: 20px solid yellow; */
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 45vw;
+}
+.sktext4{
+    border: 6px dotted orangered;
+    display: flex;
+    gap: 20px;
+    font-size:2rem;
+    align-content: center;
+    align-items: center;
+}
+.sk4 .paps1{
+    border: 5px solid red;
+    align-items: center;
+}
+.sk4 .paps2{
+    border: 3px solid blue;
+    align-items: center;
+}
+
+/* sql and c */
+.sk5{
+    /* border: 20px solid yellow; */
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 45vw;
+}
+.sktext5{
+    border: 6px dotted orangered;
+    display: flex;
+    gap: 20px;
+    font-size:1.6rem;
+    align-content: center;
+    align-items: center;
+}
+.sk5 .paps1{
+    border: 5px solid red;
+    align-items: center;
+}
+.sk5 .paps2{
+    border: 3px solid blue;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skicon #none{
+    background-color: white;
+}
+/* .sk2{
+    border: 2px solid yellow;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 40vw;
+    text-align: justify;
+} */
+/* .sk3{
+    border: 5px solid yellow;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 40vw;
+    text-align: justify;
+} */
+/* .sk4{
+    border: 2px solid yellow;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 0 30px;
+    width:40vw;
+    text-align: justify;
+} */
+/* .sk5{
+    border: 2px solid yellow;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 40vw;
+    text-align: justify;
+} */
+/* .sk5 .sktext{
+    border: 3px solid maroon;
+    font-size: 1.7rem;
+} */
+.sk5 .fa-c{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 45%;
+    background-color: black;
+    color: grey;
+    font-size: 1.3rem;
+    align-content: center;
+}
+.sktext{
+    border: 1px solid;
+    font-size: 2rem;
+}
+.skicon{
+    border: 1px solid;
+    display: flex;
+    gap: 20px;
+   align-content: center;
+   align-items: center;
+    width: auto;
+    font-size: 1.3rem;
+    /* background-color: black; */
+}
+.skicon i{
+    background-color: black;
+    border-radius: 50%;
+}
+.skicon i:hover{
+    transform: scale(1.3);
+    background-color:orangered;
+    /* border: 1px solid aqua; */
+}
+      
+
+    /* right side soft skills......................... */
+.pg4box2{
+    border: 3px solid orange;
+    width: 35vw;
+    /* padding: 20px; */
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.pg4box2 h1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.soft{
+    border: 1px solid;
+    text-align: center;
+    
+}
+.soft1{
+    border: 2px dotted rebeccapurple;
+    gap: 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.softtext{
+    border: 2px solid;
+    width: 38vw;
+    align-content: center;
+    text-align: start;
+    color: red;
+    font-size: 1.8rem;
+}
+.soft .fa-hand-point-right{
+    border: 3px solid maroon;
+    align-content: center;
+    font-size: 2rem;
+    align-self: center;
+    padding: 5px 0;
+    
+}
+
+.soft2{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft3{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft4{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft5{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft6{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft7{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+.soft8{
+    border: 2px dotted rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query start.......................................................................... */
+@media (max-width:1200px){
+    /* .fb i{
+        box-shadow: 0 0 5px 5px red;
+        border: 1px solid red;
+        border-radius: 50%;
+        padding: 5px;
+        background-color:red;
+        color: white;
+} */
+
+    .box2 img{
+        transform: rotate(360deg);
+        transition: all 2s;
+    }
+    .box3 button{
+        width: 20vw;
+        
+    }
+    .box3 button:hover{
+        transform: scale(1.1);
+    }
+    
+}
+
+@media (max-width:1100px){
+    .sk3{
+        gap: 14px;
+    }
+    .sk5{
+        border: 3px dotted blue;
+    }
+    .sk5 .sktext{
+        border: 3px solid maroon;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width:1000px){
+    .box2 {
+        width: 35%;
+    }
+    .insta button{
+    background-color: orangered;
+    width: 20vw;
+    }
+    .sk1{
+        border: 2px solid;
+        display: flex;
+        padding: 0;
+       
+    }
+    .sk{
+        border: 1px solid;
+        display: flex; 
+        padding: 0;
+    }
+    
+}
+
+@media (max-width:900px){
+    .pg4box1{
+        width: 50vw;
+    }
+    .TKbox1{
+        width: 50vw;
+       
+    }
+    .TKbox2{
+        width: 50vw;
+    }
+    
+    .sk{
+        border: 1px solid red;
+        width: 50vw;
+        flex-direction: column;
+        gap: 0;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+@media (max-width:850px){
+    .box2 {
+        width: 40%;
+    }
+    
+}
+
+
+@media (max-width:800px){
+
+    nav{
+        border: 5px solid;
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin:  auto;
+        transition: all 2s;
+        align-items: center;
+        backdrop-filter: blur(10px);
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #check:checked ~ nav{
+        left: 0;
+    }
+    #bar{
+        display: block;
+    }
+    .landing{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left{
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+    .insta{
+        width: 80%;
+        text-align: justify;
+    }
+    .fb{
+        width:30vw;
+        transform: translatex(-58%);
+        gap: 20px;
+    }
+    .insta button{
+     width: 20vw;   
+    }
+    .box2 {
+        width: 50%;
+    }
+    .landing{
+        padding: 20px;
+    }
+    .wholeabout{
+        
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .box3{
+        border-radius: 20px;
+        width: 80vw;
+    }
+    .box4{
+        width: 70vw;
+    }
+    .servi{
+        align-items: center;
+    }
+    .box--1{
+        width: 60vw;
+        padding: 20px;
+    }
+    .box--2{
+        width: 60vw;
+        padding: 20px;
+    }
+    .box3 button{
+        width: 30vw;
+    }
+
+    .myser h1{
+        text-align: center;
+    }
+    .threeboxes{
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .threeboxes div{
+        width: 60vw;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .pg4box1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .pg4box2{
+        width: 100%;
+    }
+    .TKbox1{
+        width: 100%;
+
+    }
+    .TKbox2{
+        width: 100%;
+        gap: 15px;
+    }
+    .sk{
+        /* border: 1px solid red; */
+        width: 100%;
+        justify-content: space-around;
+    }
+    .sk1{
+        justify-content: space-between;
+    }
+    .sk2{
+        justify-content: space-between;
+    }
+    .sk3{
+        justify-content: space-between;
+    }
+    .sk4{
+        justify-content: space-between;
+    }
+    .sk5{
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .box2 {
+        width: 65%;
+    }
+    .fb{
+        transform: translatex(-64%);
+        width: 40vw;
+    }
+    .insta{
+        width: 100%;
+    }
+    .left{
+        width: 120%;
+    }
+    .insta button{
+        width: 36vw;
+    }
+    .box3 button{
+        width: 33vw;
+    }
+    .threeboxes div{
+        width: 80vw;
+        
+    }
+}
+
+@media (max-width:500px){
+    .fb{
+        transform: translate(-54%)
+    }
+    .soft{
+        /* border: 10px solid; */
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        flex-direction: row;
+        /* justify-content: space-between; */
+
+    }
+    .softtext{
+        /* border: 10px solid; */
+        width: 55vw;
+    }
+    .sktext1{
+        /* border: 5px solid red; */
+        flex-direction: column;
+        gap: 0;
+        flex-direction: row;
+        font-size: 1.7rem;
+    }
+    .sktext2{
+        /* border: 5px solid red; */
+        flex-direction: column;
+        gap: 0;
+        flex-direction: row;
+        font-size: 1.7rem;
+    }
+    .sktext3{
+        /* border: 5px solid red; */
+        flex-direction: column;
+        gap: 0;
+        flex-direction: row;
+        font-size: 1.7rem;
+    }
+    .sktext4{
+        /* border: 5px solid red; */
+        flex-direction: column;
+        gap: 0;
+        flex-direction: row;
+        font-size: 1.7rem;
+    }
+    .sktext5{
+        /* border: 5px solid red; */
+        flex-direction: column;
+        gap: 0;
+        flex-direction: row;
+        font-size: 1.7rem;
+    }
+    .paps1{
+        font-size: 2.2rem;
+    }
+    .skicon{
+        /* border: 5px solid red; */
+        font-size: 1rem;
+    }
+   
+    
+}
+
+
+
+
+
+@media (max-width:380px){
+    .box2 {
+        width: 93%;
+    } 
+    .insta button{
+        width: 42vw;
+    }
+    .fb{
+        width: 50vw;
+        transform: translatex(-40%);
+    }
+    .left{
+        width: 140%;
+    }
+
+    .threeboxes div{
+        width: 100%;
+    }
+
+    .skicon{
+        border: 10px solid yellow;
+        flex-direction: column;
+        gap: 10px;
+        flex-direction: row;
+    }
+    .sk1{
+        /* border: 13px solid ; */
+        padding: 0 0;
+        justify-content: space-between;
+    }
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .showmenu{
+    display: block;
+} */
